@@ -37,8 +37,6 @@ Os métodos foram aplicados e comparados em três funções distintas:
 
       * Observou-se que métodos como Bissecção e Ponto Fixo exigiram um número consideravelmente maior de iterações em comparação com Newton-Raphson e Secante, reforçando a eficiência destes últimos.
 
------
-
 ## Projeto 2: Solução de Sistemas Lineares
 
 Implementação e análise de métodos diretos e iterativos para resolver sistemas lineares da forma $Ax = b$.
@@ -56,8 +54,6 @@ Implementação e análise de métodos diretos e iterativos para resolver sistem
   * **Sistema 10x10:** Novamente, a Eliminação de Gauss forneceu uma solução precisa. Os métodos iterativos falharam em convergir, gerando resultados impraticáveis.
 
 **Conclusão:** Para os sistemas testados, que não satisfaziam o critério de convergência (como o critério da diagonal dominante), os métodos iterativos não foram eficazes. O método direto de Eliminação de Gauss mostrou-se robusto e preciso.
-
------
 
 ## Extra: Solução de Equações Diferenciais Ordinárias (EDO)
 
